@@ -8,6 +8,7 @@ go run server.go
 
 The playground will be available in: http://localhost:8080
 
+To create the skeleton like this repo, you can follow the steps (The blog post in the references was used to get this simple version):
 ### Init go mod
 ```
 go mod init github.com/girorme
