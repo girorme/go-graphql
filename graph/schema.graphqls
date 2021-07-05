@@ -1,0 +1,24 @@
+schema {
+  query: Query
+  mutation: Mutation
+}
+
+type Query {
+  characters: [Character!]!
+  search(name: String!): Character
+}
+
+type Mutation {
+  add(character: CharacterInput!): Character!
+}
+
+input CharacterInput {
+  name: String!
+  likes: Int!
+}
+
+type Character {
+  id: ID!
+  name: String!
+  likes: Int!
+}
