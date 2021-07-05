@@ -83,3 +83,4 @@ Also in `schema.resolvers.go` we have the methods not implemented based on graph
 Reference
 ---
 - https://levelup.gitconnected.com/graphql-server-api-in-golang-601e41408d03
+- https://gqlgen.com/
