@@ -3,6 +3,7 @@ Go graphql example
 
 ### Playground and test
 ```
+go mod download
 go run server.go
 ```
 
